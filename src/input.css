@@ -1,2 +1,23 @@
 
 @import "tailwindcss";
+@theme {
+  --color-forest: #166534;
+  --color-leaf: #22c55e;
+  --color-cream: #f8faf0;
+  --color-mint: #dcfce7;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer components {
+  .dashboard-card {
+    @apply rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:shadow-md;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-forest px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-green-800 focus:outline-2 focus:outline-offset-2 focus:outline-forest;
+  }
+
+  .status-badge {
+    @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold;
+  }
+}
