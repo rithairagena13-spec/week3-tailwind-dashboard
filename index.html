@@ -270,6 +270,82 @@
 </section>
 
 
+
+<!-- Add Collection Form -->
+<section id="requests" class="dashboard-card mt-8">
+    <h2 class="text-xl font-bold text-forest">
+        Add a Collection Request
+    </h2>
+
+    <p class="mt-1 text-sm text-slate-500">
+        Enter the details of a new recycling collection.
+    </p>
+
+    <form class="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2">
+        <div>
+            <label for="item-name" class="mb-2 block text-sm font-medium text-slate-700">
+                Item Name
+            </label>
+            <input
+                id="item-name"
+                type="text"
+                placeholder="e.g. Plastic bottles"
+                class="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none transition focus:border-forest focus:ring-2 focus:ring-green-100"
+            >
+        </div>
+
+        <div>
+            <label for="item-category" class="mb-2 block text-sm font-medium text-slate-700">
+                Category
+            </label>
+            <select
+                id="item-category"
+                class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm outline-none transition focus:border-forest focus:ring-2 focus:ring-green-100"
+            >
+                <option value="">Select a category</option>
+                <option>Plastic</option>
+                <option>Paper</option>
+                <option>Glass</option>
+                <option>Metal</option>
+                <option>Textile</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="collection-date" class="mb-2 block text-sm font-medium text-slate-700">
+                Collection Date
+            </label>
+            <input
+                id="collection-date"
+                type="date"
+                class="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none transition focus:border-forest focus:ring-2 focus:ring-green-100"
+            >
+        </div>
+
+        <div>
+            <label for="item-quantity" class="mb-2 block text-sm font-medium text-slate-700">
+                Quantity
+            </label>
+            <input
+                id="item-quantity"
+                type="number"
+                min="1"
+                placeholder="Enter quantity"
+                class="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none transition focus:border-forest focus:ring-2 focus:ring-green-100"
+            >
+        </div>
+
+        <div class="flex flex-wrap gap-3 md:col-span-2">
+            <button type="submit" class="btn-primary">
+                Add Request
+            </button>
+            <button type="reset" class="rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-700 transition hover:bg-slate-100 focus:outline-2 focus:outline-offset-2 focus:outline-forest">
+                Clear Form
+            </button>
+        </div>
+    </form>
+</section>
+
     </main>
 </body>
 </html
