@@ -45,11 +45,11 @@
 
     <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <!-- Welcome Section -->
-<section id="collections" class="dashboard-card">
+<section class="dashboard-card">
     <h2 class="text-xl font-bold text-forest">
         Welcome to GreenLoop
     </h2>
-        class="text-xl font-bold text-forest">Welcome to GreenLoop</h2>
+       
             <p class="mt-2 text-sm leading-6 text-slate-600">
                 Your dashboard for making reuse and recycling easier.
             </p>
@@ -93,7 +93,7 @@
 
 
 <!-- Collections Table -->
-<section id="activity" class="dashboard-card mt-8">
+<section id="collections" class="dashboard-card mt-8">
     <div class="mb-5">
         <h2 class="text-xl font-bold text-forest">
             Recent Collections
@@ -102,6 +102,71 @@
             Track the latest recycling collection requests.
         </p>
     </div>
+
+    
+<div class="overflow-x-auto">
+    <table class="w-full min-w-[650px] text-left text-sm">
+        <thead class="border-b border-slate-200 bg-slate-50 text-slate-600">
+            <tr>
+                <th class="px-4 py-3 font-semibold">Item</th>
+                <th class="px-4 py-3 font-semibold">Category</th>
+                <th class="px-4 py-3 font-semibold">Date</th>
+                <th class="px-4 py-3 font-semibold">Status</th>
+            </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100">
+            <tr class="transition hover:bg-slate-50">
+                <td class="px-4 py-4 font-medium">Plastic Bottles</td>
+                <td class="px-4 py-4">Plastic</td>
+                <td class="px-4 py-4">Oct 10, 2026</td>
+                <td class="px-4 py-4">
+                    <span class="status-badge bg-green-100 text-green-800">Collected</span>
+                </td>
+            </tr>
+            <tr class="transition hover:bg-slate-50">
+                <td class="px-4 py-4 font-medium">Cardboard Boxes</td>
+                <td class="px-4 py-4">Paper</td>
+                <td class="px-4 py-4">Oct 9, 2026</td>
+                <td class="px-4 py-4">
+                    <span class="status-badge bg-amber-100 text-amber-800">Pending</span>
+                </td>
+            </tr>
+            <tr class="transition hover:bg-slate-50">
+                <td class="px-4 py-4 font-medium">Glass Jars</td>
+                <td class="px-4 py-4">Glass</td>
+                <td class="px-4 py-4">Oct 8, 2026</td>
+                <td class="px-4 py-4">
+                    <span class="status-badge bg-green-100 text-green-800">Collected</span>
+                </td>
+            </tr>
+            <tr class="transition hover:bg-slate-50">
+                <td class="px-4 py-4 font-medium">Aluminum Cans</td>
+                <td class="px-4 py-4">Metal</td>
+                <td class="px-4 py-4">Oct 7, 2026</td>
+                <td class="px-4 py-4">
+                    <span class="status-badge bg-blue-100 text-blue-800">Processing</span>
+                </td>
+            </tr>
+            <tr class="transition hover:bg-slate-50">
+                <td class="px-4 py-4 font-medium">Reusable Bags</td>
+                <td class="px-4 py-4">Textile</td>
+                <td class="px-4 py-4">Oct 6, 2026</td>
+                <td class="px-4 py-4">
+                    <span class="status-badge bg-green-100 text-green-800">Collected</span>
+                </td>
+            </tr>
+            <tr class="transition hover:bg-slate-50">
+                <td class="px-4 py-4 font-medium">Old Newspapers</td>
+                <td class="px-4 py-4">Paper</td>
+                <td class="px-4 py-4">Oct 5, 2026</td>
+                <td class="px-4 py-4">
+                    <span class="status-badge bg-amber-100 text-amber-800">Pending</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 </section>
 
     </main>
