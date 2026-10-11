@@ -14,13 +14,35 @@
 
 <body class="min-h-screen bg-cream font-sans text-slate-800">
     <!-- Dashboard Header -->
-    <header class="bg-forest px-6 py-8 text-white">
-        <div class="mx-auto max-w-7xl">
-            <p class="text-sm font-semibold uppercase tracking-widest text-mint">GreenLoop</p>
-            <h1 class="mt-2 text-3xl font-bold">Reuse & Recycling Dashboard</h1>
-            <p class="mt-2 text-sm text-green-100">Manage collections, recycling requests, and reusable materials.</p>
+   
+<!-- Dashboard Header -->
+<header class="bg-forest px-4 py-5 text-white sm:px-6">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+            <p class="text-sm font-semibold uppercase tracking-widest text-mint">
+                GreenLoop
+            </p>
+            <h1 class="mt-1 text-2xl font-bold">
+                Reuse & Recycling Dashboard
+            </h1>
         </div>
-    </header>
+
+        <nav class="flex flex-wrap gap-4 text-sm font-medium">
+            <a href="#overview" class="transition hover:text-mint focus:outline-2 focus:outline-mint">
+                Overview
+            </a>
+            <a href="#collections" class="transition hover:text-mint focus:outline-2 focus:outline-mint">
+                Collections
+            </a>
+            <a href="#activity" class="transition hover:text-mint focus:outline-2 focus:outline-mint">
+                Activity
+            </a>
+            <a href="#requests" class="transition hover:text-mint focus:outline-2 focus:outline-mint">
+                Requests
+            </a>
+        </nav>
+    </div>
+</header>
 
     <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <!-- Welcome Section -->
