@@ -84,27 +84,47 @@
             </a>
 
             <a href="#top-items" class="flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium text-slate-600 transition hover:bg-slate-100 hover:text-forest">
-                <i class="fa-solid fa-leaf" aria-hidden="true"></i> Top Recycled Items
+                 Top Recycled Items
             </a>
         </nav>
     </aside>
 
     <!-- Main Dashboard Content -->
     <main class="min-w-0 flex-1 px-4 py-8 sm:px-6 lg:px-8">
-
-        <!-- Welcome Section -->
+<!-- Welcome Section -->
 <section class="dashboard-card">
+
+    <div class="relative mb-5 h-48 overflow-hidden rounded-xl bg-forest">
+        <img
+            src="/src/image/greenloop-banner.jpg"
+            alt="Green plants and environmental sustainability"
+            class="absolute inset-0 h-full w-full object-cover"
+        >
+
+        <div class="absolute inset-0 bg-black/50"></div>
+
+        <h2 class="absolute inset-0 z-10 flex items-center px-6 text-3xl font-bold text-white md:text-4xl">
+            Small Actions, Greener Future
+        </h2>
+    </div>
+
     <h2 class="text-xl font-bold text-forest">
         Welcome to GreenLoop
     </h2>
-       
-            <p class="mt-2 text-sm leading-6 text-slate-600">
-                Your dashboard for making reuse and recycling easier.
-            </p>
-            <button type="button" class="btn-primary mt-5">
-                Explore Dashboard
-            </button>
-        </section>
+
+    <p class="mt-2 text-sm leading-6 text-slate-600">
+        Your dashboard for making reuse and recycling easier.
+    </p>
+
+    <p class="mt-3 font-semibold text-forest">
+        Reduce Waste. Reuse More. Renew Our Planet.
+    </p>
+
+    <button type="button" class="btn-primary mt-5">
+        Explore Dashboard
+    </button>
+
+</section>
 
         <!-- Dashboard Statistics -->  
 <section id="overview" class="mt-8">
@@ -395,9 +415,22 @@
     </form>
 </section>
 
-
-
     </main>
 </div>
+
+<!-- Footer -->
+<footer class="mt-10 border-t border-mint bg-mint/20 px-6 py-6 text-center">
+    <p class="text-sm font-semibold text-forest">
+        <i class="fa-solid fa-leaf mr-2" aria-hidden="true"></i>GreenLoop
+    </p>
+
+   <p class="text-sm font-semibold text-forest">
+        Reduce Waste. Reuse More. Renew Our Planet.
+    </p>
+
+  <p class="text-sm font-semibold text-forest">
+        &copy; 2026 GreenLoop. All rights reserved.
+    </p>
+</footer>
 </body>
 </html
