@@ -34,15 +34,4 @@
   }
 }
 
-@utility progress-width {
-  width: var(--progress);
-}
-
-
-@layer components {
-  .progress-bar {
-    width: var(--progress);
-  }
-}
-
 
