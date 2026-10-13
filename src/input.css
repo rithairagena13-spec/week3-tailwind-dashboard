@@ -21,3 +21,28 @@
     @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold;
   }
 }
+
+
+
+@layer components {
+  .hero-banner {
+    background-image:
+      linear-gradient(rgba(10, 45, 25, 0.65), rgba(10, 45, 25, 0.78)),
+      url("./src/images/your-image.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@utility progress-width {
+  width: var(--progress);
+}
+
+
+@layer components {
+  .progress-bar {
+    width: var(--progress);
+  }
+}
+
+
